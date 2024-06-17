@@ -1,0 +1,988 @@
+{
+  "info": {
+    "description": "The Caltech-UCSD Birds-200-2011 Dataset",
+    "url": "http://www.vision.caltech.edu/visipedia/CUB-200-2011.html",
+    "version": "1.0",
+    "year": 2011,
+    "contributor": "C. Wah, S. Branson, P. Welinder, P. Perona, S. Belongie",
+    "date_created": "2011/06/11",
+    "institution": "California Institute of Technology",
+    "number": "CNS-TR-2011-001"
+  },
+  "images": [
+    {
+      "id": 5,
+      "width": 331,
+      "height": 380,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0014_89.jpg"
+    },
+    {
+      "id": 7,
+      "width": 500,
+      "height": 340,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0031_100.jpg"
+    },
+    {
+      "id": 8,
+      "width": 500,
+      "height": 391,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0051_796103.jpg"
+    },
+    {
+      "id": 15,
+      "width": 500,
+      "height": 379,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0040_796066.jpg"
+    },
+    {
+      "id": 20,
+      "width": 333,
+      "height": 500,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0067_170.jpg"
+    },
+    {
+      "id": 21,
+      "width": 320,
+      "height": 240,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0060_796076.jpg"
+    },
+    {
+      "id": 30,
+      "width": 376,
+      "height": 322,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0080_796096.jpg"
+    },
+    {
+      "id": 35,
+      "width": 500,
+      "height": 338,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0019_796104.jpg"
+    },
+    {
+      "id": 43,
+      "width": 500,
+      "height": 332,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0038_212.jpg"
+    },
+    {
+      "id": 51,
+      "width": 500,
+      "height": 500,
+      "file_name": "001.Black_footed_Albatross/Black_Footed_Albatross_0039_796132.jpg"
+    },
+    {
+      "id": 67,
+      "width": 500,
+      "height": 333,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0071_792.jpg"
+    },
+    {
+      "id": 72,
+      "width": 500,
+      "height": 375,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0065_809.jpg"
+    },
+    {
+      "id": 78,
+      "width": 500,
+      "height": 281,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0025_571.jpg"
+    },
+    {
+      "id": 80,
+      "width": 500,
+      "height": 333,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0092_834.jpg"
+    },
+    {
+      "id": 84,
+      "width": 500,
+      "height": 500,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0099_869.jpg"
+    },
+    {
+      "id": 89,
+      "width": 500,
+      "height": 334,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0088_883.jpg"
+    },
+    {
+      "id": 97,
+      "width": 500,
+      "height": 375,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0096_673.jpg"
+    },
+    {
+      "id": 109,
+      "width": 333,
+      "height": 500,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0068_726.jpg"
+    },
+    {
+      "id": 110,
+      "width": 500,
+      "height": 397,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0040_472.jpg"
+    },
+    {
+      "id": 116,
+      "width": 500,
+      "height": 333,
+      "file_name": "002.Laysan_Albatross/Laysan_Albatross_0083_756.jpg"
+    },
+    {
+      "id": 121,
+      "width": 500,
+      "height": 320,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0038_1065.jpg"
+    },
+    {
+      "id": 122,
+      "width": 500,
+      "height": 357,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0031_1066.jpg"
+    },
+    {
+      "id": 123,
+      "width": 330,
+      "height": 500,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0001_1071.jpg"
+    },
+    {
+      "id": 137,
+      "width": 400,
+      "height": 500,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0034_1154.jpg"
+    },
+    {
+      "id": 151,
+      "width": 500,
+      "height": 217,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0075_796352.jpg"
+    },
+    {
+      "id": 158,
+      "width": 409,
+      "height": 450,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0058_796360.jpg"
+    },
+    {
+      "id": 160,
+      "width": 500,
+      "height": 370,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0041_796364.jpg"
+    },
+    {
+      "id": 168,
+      "width": 391,
+      "height": 500,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0040_796375.jpg"
+    },
+    {
+      "id": 174,
+      "width": 500,
+      "height": 334,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0019_796391.jpg"
+    },
+    {
+      "id": 176,
+      "width": 350,
+      "height": 397,
+      "file_name": "003.Sooty_Albatross/Sooty_Albatross_0022_796398.jpg"
+    },
+    {
+      "id": 184,
+      "width": 333,
+      "height": 500,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0071_1559.jpg"
+    },
+    {
+      "id": 189,
+      "width": 500,
+      "height": 333,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0019_1585.jpg"
+    },
+    {
+      "id": 195,
+      "width": 500,
+      "height": 375,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0085_1612.jpg"
+    },
+    {
+      "id": 202,
+      "width": 400,
+      "height": 500,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0051_1650.jpg"
+    },
+    {
+      "id": 206,
+      "width": 500,
+      "height": 360,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0002_1670.jpg"
+    },
+    {
+      "id": 209,
+      "width": 479,
+      "height": 500,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0072_1696.jpg"
+    },
+    {
+      "id": 213,
+      "width": 500,
+      "height": 349,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0047_1706.jpg"
+    },
+    {
+      "id": 221,
+      "width": 500,
+      "height": 332,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0004_1528.jpg"
+    },
+    {
+      "id": 228,
+      "width": 397,
+      "height": 500,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0065_1502.jpg"
+    },
+    {
+      "id": 235,
+      "width": 500,
+      "height": 375,
+      "file_name": "004.Groove_billed_Ani/Groove_Billed_Ani_0032_1776.jpg"
+    },
+    {
+      "id": 242,
+      "width": 333,
+      "height": 500,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0018_1817.jpg"
+    },
+    {
+      "id": 243,
+      "width": 334,
+      "height": 500,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0010_794907.jpg"
+    },
+    {
+      "id": 245,
+      "width": 326,
+      "height": 500,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0029_1824.jpg"
+    },
+    {
+      "id": 257,
+      "width": 324,
+      "height": 480,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0001_794941.jpg"
+    },
+    {
+      "id": 262,
+      "width": 279,
+      "height": 381,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0012_794960.jpg"
+    },
+    {
+      "id": 264,
+      "width": 500,
+      "height": 333,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0033_794964.jpg"
+    },
+    {
+      "id": 267,
+      "width": 500,
+      "height": 333,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0073_785248.jpg"
+    },
+    {
+      "id": 270,
+      "width": 410,
+      "height": 500,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0076_785252.jpg"
+    },
+    {
+      "id": 276,
+      "width": 500,
+      "height": 363,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0072_785260.jpg"
+    },
+    {
+      "id": 278,
+      "width": 500,
+      "height": 402,
+      "file_name": "005.Crested_Auklet/Crested_Auklet_0063_794901.jpg"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 5,
+      "image_id": 5,
+      "category_id": 1,
+      "bbox": [
+        70.0,
+        50.0,
+        134.0,
+        303.0
+      ],
+      "area": 40602.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 7,
+      "image_id": 7,
+      "category_id": 1,
+      "bbox": [
+        7.0,
+        75.0,
+        420.0,
+        262.0
+      ],
+      "area": 110040.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 8,
+      "image_id": 8,
+      "category_id": 1,
+      "bbox": [
+        78.0,
+        86.0,
+        333.0,
+        158.0
+      ],
+      "area": 52614.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 15,
+      "image_id": 15,
+      "category_id": 1,
+      "bbox": [
+        23.0,
+        80.0,
+        395.0,
+        237.0
+      ],
+      "area": 93615.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 20,
+      "image_id": 20,
+      "category_id": 1,
+      "bbox": [
+        23.0,
+        195.0,
+        255.0,
+        122.0
+      ],
+      "area": 31110.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 21,
+      "image_id": 21,
+      "category_id": 1,
+      "bbox": [
+        11.0,
+        77.0,
+        281.0,
+        139.0
+      ],
+      "area": 39059.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 30,
+      "image_id": 30,
+      "category_id": 1,
+      "bbox": [
+        90.0,
+        29.0,
+        224.0,
+        211.0
+      ],
+      "area": 47264.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 35,
+      "image_id": 35,
+      "category_id": 1,
+      "bbox": [
+        19.0,
+        18.0,
+        464.0,
+        294.0
+      ],
+      "area": 136416.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 43,
+      "image_id": 43,
+      "category_id": 1,
+      "bbox": [
+        137.0,
+        64.0,
+        287.0,
+        156.0
+      ],
+      "area": 44772.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 51,
+      "image_id": 51,
+      "category_id": 1,
+      "bbox": [
+        151.0,
+        152.0,
+        310.0,
+        200.0
+      ],
+      "area": 62000.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 67,
+      "image_id": 67,
+      "category_id": 2,
+      "bbox": [
+        156.0,
+        35.0,
+        126.0,
+        259.0
+      ],
+      "area": 32634.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 72,
+      "image_id": 72,
+      "category_id": 2,
+      "bbox": [
+        75.0,
+        80.0,
+        375.0,
+        277.0
+      ],
+      "area": 103875.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 78,
+      "image_id": 78,
+      "category_id": 2,
+      "bbox": [
+        193.0,
+        46.0,
+        202.0,
+        195.0
+      ],
+      "area": 39390.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 80,
+      "image_id": 80,
+      "category_id": 2,
+      "bbox": [
+        71.0,
+        50.0,
+        312.0,
+        236.0
+      ],
+      "area": 73632.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 84,
+      "image_id": 84,
+      "category_id": 2,
+      "bbox": [
+        41.0,
+        89.0,
+        378.0,
+        304.0
+      ],
+      "area": 114912.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 89,
+      "image_id": 89,
+      "category_id": 2,
+      "bbox": [
+        84.0,
+        25.0,
+        285.0,
+        307.0
+      ],
+      "area": 87495.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 97,
+      "image_id": 97,
+      "category_id": 2,
+      "bbox": [
+        46.0,
+        71.0,
+        403.0,
+        280.0
+      ],
+      "area": 112840.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 109,
+      "image_id": 109,
+      "category_id": 2,
+      "bbox": [
+        43.0,
+        62.0,
+        286.0,
+        432.0
+      ],
+      "area": 123552.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 110,
+      "image_id": 110,
+      "category_id": 2,
+      "bbox": [
+        148.0,
+        115.0,
+        149.0,
+        193.0
+      ],
+      "area": 28757.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 116,
+      "image_id": 116,
+      "category_id": 2,
+      "bbox": [
+        128.0,
+        109.0,
+        221.0,
+        198.0
+      ],
+      "area": 43758.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 121,
+      "image_id": 121,
+      "category_id": 3,
+      "bbox": [
+        196.0,
+        96.0,
+        222.0,
+        147.0
+      ],
+      "area": 32634.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 122,
+      "image_id": 122,
+      "category_id": 3,
+      "bbox": [
+        102.0,
+        128.0,
+        396.0,
+        148.0
+      ],
+      "area": 58608.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 123,
+      "image_id": 123,
+      "category_id": 3,
+      "bbox": [
+        105.0,
+        133.0,
+        168.0,
+        283.0
+      ],
+      "area": 47544.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 137,
+      "image_id": 137,
+      "category_id": 3,
+      "bbox": [
+        134.0,
+        96.0,
+        123.0,
+        289.0
+      ],
+      "area": 35547.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 151,
+      "image_id": 151,
+      "category_id": 3,
+      "bbox": [
+        14.0,
+        39.0,
+        455.0,
+        167.0
+      ],
+      "area": 75985.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 158,
+      "image_id": 158,
+      "category_id": 3,
+      "bbox": [
+        22.0,
+        13.0,
+        325.0,
+        428.0
+      ],
+      "area": 139100.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 160,
+      "image_id": 160,
+      "category_id": 3,
+      "bbox": [
+        139.0,
+        33.0,
+        337.0,
+        319.0
+      ],
+      "area": 107503.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 168,
+      "image_id": 168,
+      "category_id": 3,
+      "bbox": [
+        96.0,
+        58.0,
+        246.0,
+        351.0
+      ],
+      "area": 86346.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 174,
+      "image_id": 174,
+      "category_id": 3,
+      "bbox": [
+        236.0,
+        36.0,
+        123.0,
+        115.0
+      ],
+      "area": 14145.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 176,
+      "image_id": 176,
+      "category_id": 3,
+      "bbox": [
+        20.0,
+        18.0,
+        314.0,
+        367.0
+      ],
+      "area": 115238.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 184,
+      "image_id": 184,
+      "category_id": 4,
+      "bbox": [
+        61.0,
+        41.0,
+        230.0,
+        414.0
+      ],
+      "area": 95220.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 189,
+      "image_id": 189,
+      "category_id": 4,
+      "bbox": [
+        200.0,
+        149.0,
+        111.0,
+        117.0
+      ],
+      "area": 12987.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 195,
+      "image_id": 195,
+      "category_id": 4,
+      "bbox": [
+        205.0,
+        140.0,
+        182.0,
+        173.0
+      ],
+      "area": 31486.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 202,
+      "image_id": 202,
+      "category_id": 4,
+      "bbox": [
+        92.0,
+        94.0,
+        213.0,
+        295.0
+      ],
+      "area": 62835.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 206,
+      "image_id": 206,
+      "category_id": 4,
+      "bbox": [
+        24.0,
+        58.0,
+        432.0,
+        238.0
+      ],
+      "area": 102816.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 209,
+      "image_id": 209,
+      "category_id": 4,
+      "bbox": [
+        147.0,
+        142.0,
+        148.0,
+        208.0
+      ],
+      "area": 30784.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 213,
+      "image_id": 213,
+      "category_id": 4,
+      "bbox": [
+        115.0,
+        59.0,
+        329.0,
+        255.0
+      ],
+      "area": 83895.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 221,
+      "image_id": 221,
+      "category_id": 4,
+      "bbox": [
+        290.0,
+        97.0,
+        145.0,
+        142.0
+      ],
+      "area": 20590.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 228,
+      "image_id": 228,
+      "category_id": 4,
+      "bbox": [
+        110.0,
+        52.0,
+        219.0,
+        368.0
+      ],
+      "area": 80592.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 235,
+      "image_id": 235,
+      "category_id": 4,
+      "bbox": [
+        156.0,
+        25.0,
+        198.0,
+        349.0
+      ],
+      "area": 69102.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 242,
+      "image_id": 242,
+      "category_id": 5,
+      "bbox": [
+        52.0,
+        51.0,
+        278.0,
+        448.0
+      ],
+      "area": 124544.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 243,
+      "image_id": 243,
+      "category_id": 5,
+      "bbox": [
+        22.0,
+        45.0,
+        225.0,
+        373.0
+      ],
+      "area": 83925.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 245,
+      "image_id": 245,
+      "category_id": 5,
+      "bbox": [
+        25.0,
+        39.0,
+        247.0,
+        460.0
+      ],
+      "area": 113620.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 257,
+      "image_id": 257,
+      "category_id": 5,
+      "bbox": [
+        34.0,
+        141.0,
+        251.0,
+        331.0
+      ],
+      "area": 83081.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 262,
+      "image_id": 262,
+      "category_id": 5,
+      "bbox": [
+        98.0,
+        57.0,
+        122.0,
+        286.0
+      ],
+      "area": 34892.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 264,
+      "image_id": 264,
+      "category_id": 5,
+      "bbox": [
+        252.0,
+        54.0,
+        111.0,
+        211.0
+      ],
+      "area": 23421.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 267,
+      "image_id": 267,
+      "category_id": 5,
+      "bbox": [
+        209.0,
+        22.0,
+        196.0,
+        128.0
+      ],
+      "area": 25088.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 270,
+      "image_id": 270,
+      "category_id": 5,
+      "bbox": [
+        60.0,
+        66.0,
+        263.0,
+        396.0
+      ],
+      "area": 104148.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 276,
+      "image_id": 276,
+      "category_id": 5,
+      "bbox": [
+        177.0,
+        146.0,
+        186.0,
+        173.0
+      ],
+      "area": 32178.0,
+      "iscrowd": 0
+    },
+    {
+      "id": 278,
+      "image_id": 278,
+      "category_id": 5,
+      "bbox": [
+        38.0,
+        17.0,
+        388.0,
+        359.0
+      ],
+      "area": 139292.0,
+      "iscrowd": 0
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Black_footed_Albatross"
+    },
+    {
+      "id": 2,
+      "name": "Laysan_Albatross"
+    },
+    {
+      "id": 3,
+      "name": "Sooty_Albatross"
+    },
+    {
+      "id": 4,
+      "name": "Groove_billed_Ani"
+    },
+    {
+      "id": 5,
+      "name": "Crested_Auklet"
+    }
+  ]
+}
